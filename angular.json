@@ -19,7 +19,7 @@
               "tsConfig": "projects/ngx-perf/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-perf/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-perf/tsconfig.json"
             }
           },
           "defaultConfiguration": "production"

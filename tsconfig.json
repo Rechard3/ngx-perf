@@ -12,9 +12,8 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "ngx-perf": [
-        "dist/ngx-perf/ngx-perf",
-        "dist/ngx-perf"
+      "ngx-perf/*": [
+        "projects/ngx-perf/*",
       ]
     },
     "declaration": false,
