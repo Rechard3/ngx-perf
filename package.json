@@ -1,6 +1,11 @@
 {
   "name": "ngx-perf",
   "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Omar Abu Saada",
+    "email": "omarabusaada93@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

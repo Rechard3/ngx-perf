@@ -2,4 +2,4 @@
  * Public API Surface of ngx-perf
  */
 
-export const ngxPerf = '';
+export { NgxPerfCoreModule } from "ngx-perf/core";

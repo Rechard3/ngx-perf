@@ -1,6 +1,21 @@
 {
   "name": "ngx-perf",
   "version": "0.0.1",
+  "author": {
+    "name": "Omar Abu Saada",
+    "email": "omarabusaada93@gmail.com"
+  },
+  "license": "MIT",
+  "description": "Optimize Angular Application performance & web-vitals using one library. Provides features to optimize initial bundle size, initial navigation load time, web vitals score, running performance, performance analysis, and other features.",
+  "icon": "assets/ngx-perf-logo-128.png",
+  "keywords": [
+    "performance",
+    "angular",
+    "web vitals",
+    "lightweight",
+    "analysis",
+    "performance analysis"
+  ],
   "peerDependencies": {
     "@angular/common": "^13.3.0",
     "@angular/core": "^13.3.0"
