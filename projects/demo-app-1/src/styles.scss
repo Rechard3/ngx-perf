@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+*{
+  font-family: sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+
+  // shades of primary color background
+  --primary-100: #471B74;
+  --primary-300: #5C2395;
+  --primary-400: #6627A5;
+  --primary-500: #702BB6;
+  --primary-700: #8539D0;
+
+  --primary: var(--primary-400);
+
+  // style for primary color text
+  --primary-text-100: white;
+  --primary-text-300: white;
+  --primary-text-400: white;
+  --primary-text-500: white;
+  --primary-text-700: white;
+
+  --primary-text: var(--primary-text-400);
+
+  // shades of accent color background
+  --accent-100: #82A22A;
+  --accent-300: #9CC332;
+  --accent-400: #A6CD3C;
+  --accent-500: #AED14D;
+  --accent-700: #BCD96D;
+
+  --accent: var(--accent-400);
+
+  // shades of accent color text
+  --accent-text-100: white;
+  --accent-text-300: black;
+  --accent-text-400: black;
+  --accent-text-500: black;
+  --accent-text-700: black;
+
+  --accent-text: var(--accent-text-400);
+
+
+  // shades of danger color background
+  --danger-100: #8F089B;
+  --danger-300: #B20AC2;
+  --danger-400: #C40BD5;
+  --danger-500: #D60CE9;
+  --danger-700: #E32AF4;
+
+  --danger: var(--danger-400);
+
+
+  // shades of grey
+  --grey-100: #666;
+  --grey-300: #888;
+  --grey-400: #AAA;
+  --grey-500: #CCC;
+  --grey-600: #EEE;
+  --grey-700: #FFF;
+
+  --grey: var(--grey-400);
+
+
+  // shades of black
+  --black-100: #111;
+  --black-300: #222;
+  --black-400: #292929;
+  --black-500: #393939;
+  --black-700: #494949;
+}

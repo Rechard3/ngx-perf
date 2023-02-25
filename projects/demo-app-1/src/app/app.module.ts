@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxPerfCoreModule } from 'ngx-perf/core/src/core.module';
+import { environment } from '../environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,9 +12,14 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPerfCoreModule.forRoot({
+      includeAnalysis: true,
+    }),
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    {provide: Performance, useFactory: ()=>performance},
+  ],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
